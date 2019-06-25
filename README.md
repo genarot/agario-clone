@@ -3,3 +3,4 @@
 ## Are made following the Chapter 5 of the Socket.io v2 Course
 
 ### https://www.udemy.com/socketio-with-websockets-the-details/
+### [Link to Repo](https://github.com/robertbunch/socketioTheDetails)

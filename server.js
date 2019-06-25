@@ -8,8 +8,8 @@ const socketIo = require('socket.io');
 const helmet = require('helmet');
 
 
-const httpServer = http.createServer();
-const server = express(httpServer);
+const server = express();
+const httpServer = http.createServer(server);
 
 httpServer.on('listening', () => {
     console.log(`The server is running on port ${9090}`);
